@@ -1,0 +1,39 @@
+<head>
+    <title>The Math Quiz Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <button style="float: top-right; background-color: violet;" onclick="back()">Back</button>
+    <center>
+        <h1 id="heading2">Find The Answer</h1>
+        <h4 id="p1n"></h4><span id="p1s"></span>
+        <br>
+        <h4 id="p2n"></h4><span id="p2s"></span>
+
+        <h3 id="p_question"></h3>
+        <h3 id="p_answer"></h3>
+        <br>
+        <div id="questionDiv">
+            <h4>No.1</h4> <span><input id="no1" placeholder="Number 1" type="number"></span>
+            <br>
+            <h4>No.2</h4> <span><input id="no2" placeholder="Number 2" type="number"></span>
+            <br>
+            <br>
+            <button class="btn btn-info" onclick="send()">Submit</button>
+            <br>
+            <br>
+            <label id="ansLabel" style="font-size: 20px; color: red;"></label>
+        </div>
+        <div id="output">
+        </div>
+
+    </center>
+    <script src="game.js"></script>
+</body>
+
+</html>

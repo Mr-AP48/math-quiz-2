@@ -1,0 +1,27 @@
+body {
+    background-color: hotpink;
+}
+
+.login_div {
+    background-color: pink;
+    float: none;
+    padding: 15px;
+    padding-bottom: 20px;
+    border-radius: 3px;
+}
+
+#heading1 {
+    background-color: plum;
+    width: 20%;
+}
+
+#heading2 {
+    background-color: plum;
+    width: 20%;
+}
+
+.questionDiv {
+    background-color: magenta;
+    width: 15%;
+    padding: 15px;
+}
